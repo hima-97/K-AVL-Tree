@@ -1,6 +1,12 @@
 # Project Description
 
-This project consists of implementing a perfect hashing scheme using universal hash functions.
+This project consists of building a K-AVL tree from scratch. <br />
+An AVL tree is a self balancing binary search tree where the height of the two child subtrees at any node can differ by at most one. <br />
+
+
+
+
+
 This hashing scheme is constructed in a way that it can be applied to a file containing approximately 350,000 words with one word per line.
 
 The project is divided in two programs:
