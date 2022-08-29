@@ -1,7 +1,8 @@
 # Project Description
 
 This project consists of building a K-AVL tree from scratch. <br />
-An AVL tree is a self balancing binary search tree where the height of the two child subtrees at any node can differ by at most one. <br />
+An AVL tree is a self-balancing binary search tree where the height of the two child subtrees at any node can differ by at most one. <br />
+However, in a K-AVL tree the height of the two child subtrees at any node can differ by at most K.
 
 
 
