@@ -85,7 +85,7 @@ Passing the command `"approx_search 9 3"` will output:
 
 You can run and test the first program of the project by running the following command:
 
-- `if ($?) { g++ k_AVL.cpp main.cpp -o k_AVL } ; if ($?) { .\k_AVL "insert argv[1] string argument here" }`
+- `if ($?) { g++ k_AVL.cpp main.cpp -o k_AVL }; if ($?) { .\k_AVL "insert argv[1] string argument here" }`
 
 - Note: replace `insert argv[1] string argument here` with a string argument that begins with the value of K followed by a comma and a series of commands separated by a comma
 
