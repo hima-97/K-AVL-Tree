@@ -26,7 +26,7 @@ The K-AVL tree class contains the following functions:
 
 Function for inserting a new decimal value into the K-AVL tree.
 
-Upon passing the string command `"insert [whole part] [decimal part]"` via argv[1], the program should print:
+Passing the string command `"insert [whole part] [decimal part]"` via argv[1], the program should print:
 - `[whole part].[decimal part] inserted`
 - Print nothing if the decimal value is already in the K-AVL tree upon inserting
 
@@ -39,7 +39,7 @@ Passing the command `"insert 9 3"` will output:
 
 Function for searching a decimal value in the K-AVL tree.
 
-Upon passing the string command `"search [whole part] [decimal part]"` via argv[1], the program should print:
+Passing the string command `"search [whole part] [decimal part]"` via argv[1], the program should print:
 - `[whole part].[decimal part] found`, if the decimal value is in the K-AVL tree
 - `[whole part].[decimal part] not found`, if the decimal value is not in the K-AVL tree
 
@@ -54,7 +54,7 @@ Function for deleting a decimal value from the K-AVL tree. <br />
 
 - Note: to delete an internal node of the tree, first replace the node with with its in-order predecessor and then delete the predecessor
 
-Upon passing the string command `"delete [whole part] [decimal part]"` via argv[1], the program should print:
+Passing the string command `"delete [whole part] [decimal part]"` via argv[1], the program should print:
 - `[whole part].[decimal part] deleted`, if the decimal value was in the K-AVL tree before deletion
 - Print nothing if the decimal value is not in the K-AVL tree before deletion
 
@@ -70,8 +70,8 @@ Function for searching the decimal value in the K-AVL tree that is closest to a 
 - Note: the program considers the value with smallest absolute difference as the closest value.
         If there are more than one values having the same absolute difference, the smallest of them is considered.
 
-Upon passing the string command `"approx_search [whole part] [decimal part]"` via argv[1], the program should print:
-- `closest to [whole part].[decimal part] is [whole part].[decimal part]`, if the value specified is in the K-AVL tree
+Passing the string command `"approx_search [whole part] [decimal part]"` via argv[1], the program should print:
+- `closest to [whole part].[decimal part] is [whole part].[decimal part]`, if the value is in the K-AVL tree
 - `closest to [whole part].[decimal part] is [whole part 1].[decimal part 1]`, if the value is closest to specified value
 - Print nothing if the K-AVL tree is empty
 
