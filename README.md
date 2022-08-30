@@ -83,7 +83,7 @@ Passing the command `"approx_search 9 3"` will output:
 
 # Running and Testing the Project
 
-You can run and test the first program of the project by running the following command:
+You can run and test the project by running the following command:
 
 - `if ($?) { g++ k_AVL.cpp main.cpp -o k_AVL }; if ($?) { .\k_AVL "insert argv[1] string argument here" }`
 
