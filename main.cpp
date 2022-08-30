@@ -116,6 +116,7 @@ int main(int argc, char* argv[])
         {
             if (myTree.root != nullptr)
             {
+                cout << "Printing the K-AVL tree in LNR (in-order traversal): ";
                 myTree.printLNR(myTree.root);
                 cout << endl;
             }
@@ -125,6 +126,7 @@ int main(int argc, char* argv[])
         {
             if (myTree.root != nullptr)
             {
+                cout << "Printing the K-AVL tree in NLR (pre-order traversal): ";
                 myTree.printNLR(myTree.root);
                 cout << endl;
             }
