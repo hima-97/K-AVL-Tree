@@ -81,6 +81,14 @@ Passing the command `"approx_search 9 3"` will output:
 - `closest to 9.3 is 8.8`, if "8.8" is the closest value to "9.3"
 - Print nothing if the K-AVL tree is empty
 
+# Tools and Concepts
+- Languages: C++
+- VSCode
+- Object-Oriented Programming (OOP)
+- Recursion
+- AVL Search trees
+- Pointers
+
 # Running and Testing the Project
 
 You can run and test the project by running the following command:
